@@ -2,8 +2,8 @@ function sendText(name1) {
 	let words = name1.split(" ");
 	let longestWord = "";
 
-	for (let i = 0; i < words.lenth; i++) {
-		if (words[i].lenth > longestWord.length) {
+	for (let i = 0; i < words.length; i++) {
+		if (words[i].length > longestWord.length) {
 			longestWord = words[i];
 		}
 	}
