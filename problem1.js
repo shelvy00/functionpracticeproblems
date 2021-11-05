@@ -1,3 +1,5 @@
+//Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
+
 function sendText(name1) {
 	let words = name1.split(" ");
 	let longestWord = "";
