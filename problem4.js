@@ -1,6 +1,6 @@
 //Write a JavaScript function that checks if a single word is a palindrome.
 
-function Palindrome(str) {
+function palindrome(str) {
 
 	// get the total length of the words
 	const len = str.length
@@ -16,4 +16,4 @@ function Palindrome(str) {
 	alert("It is a palindrome");
 }
 
-console.log(Palindrome("racecar"));
+console.log(palindrome("racecar"));

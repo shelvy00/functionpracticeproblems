@@ -15,4 +15,4 @@ function fizzbuzz() {
   }
 }
 
-console.log(fizzbuzz(12));
+console.log(fizzbuzz());
